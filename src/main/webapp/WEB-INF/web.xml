@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>DV1C02 Coursework 1</display-name>
+  
+  <servlet>
+  <servlet-name>HomeServlet</servlet-name>
+  <servlet-class>com.sddo.dv1c02.cw1.servlet.HomeServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>HomeServlet</servlet-name>
+  <url-pattern></url-pattern>
+  <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.sddo.dv1c02.cw1.servlet.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>RegisterServlet</servlet-name>
+  <servlet-class>com.sddo.dv1c02.cw1.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>RegisterServlet</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ManageBooksServlet</servlet-name>
+  <servlet-class>com.sddo.dv1c02.cw1.servlet.ManageBooksServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ManageBooksServlet</servlet-name>
+  <url-pattern>/manageBooks</url-pattern>
+  <url-pattern>/manageBooks/editBook</url-pattern>
+  <url-pattern>/manageBooks/updateBook</url-pattern>
+  <url-pattern>/manageBooks/deleteBook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>LogoutServlet</servlet-name>
+  <servlet-class>com.sddo.dv1c02.cw1.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LogoutServlet</servlet-name>
+  <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>AddBookServlet</servlet-name>
+  <servlet-class>com.sddo.dv1c02.cw1.servlet.AddBookServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>AddBookServlet</servlet-name>
+  <url-pattern>/addBook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ChangePasswordServlet</servlet-name>
+  <servlet-class>com.sddo.dv1c02.cw1.servlet.ChangePasswordServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ChangePasswordServlet</servlet-name>
+  <url-pattern>/changePassword</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>UpdateParticularsServlet</servlet-name>
+  <servlet-class>com.sddo.dv1c02.cw1.servlet.UpdateParticularsServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>UpdateParticularsServlet</servlet-name>
+  <url-pattern>/updateParticulars</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
