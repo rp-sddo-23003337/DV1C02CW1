@@ -36,8 +36,10 @@ class BookTest {
 	void testGetBookID() {
 		//fail("Not yet implemented");
 		
+		// create a new Book object
 		Book b = new Book("id 1", "title 1", "author 1", "ISBN 1", (float)9.99, "category 1");
 		
+		// make sure the book id is 'id 1'
 		assertTrue(b.getBookID().equals("id 1"));
 	}
 
