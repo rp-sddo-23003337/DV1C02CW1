@@ -109,7 +109,7 @@ public class RegisterServlet extends HttpServlet {
 			// execute the query on the database using the prepared statement
 			int i = ps.executeUpdate();
 			
-			// check if the query had been successfully executed, return “You are successfully registered” via the response
+			// check if the query had been successfully executed, return 'You are successfully registered' via the response
 			if (i > 0) {
 				out.println("<h3>" + "You have successfully registered a staff account!" + "</h3>");
 			}
