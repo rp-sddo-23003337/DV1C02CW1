@@ -7,6 +7,7 @@
   <name>DV1C02 Coursework 1</name>
   <description>A simple web application for DV1C02 coursework 1</description>
   
+  <!-- declaration of properties -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
