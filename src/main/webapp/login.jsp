@@ -40,7 +40,7 @@
 	<tr><td>&nbsp;</td></tr>
 	<tr>
 		<td colspan="2" style="text-align: center">
-			<a href="<%=request.getContextPath()%>/register">Create Staff Account</a>
+			<a href="<%=request.getContextPath()%>/register">Create New Staff Account</a>
 		</td>
 	</tr>
 </table>
